@@ -73,11 +73,7 @@ app.post('/notes', (request, response) => {
   response.json(note)
 })
 
-<<<<<<< HEAD
 app.get('/api/notes', (request, response) => {
-=======
-app.get('/notes', (request, response) => {
->>>>>>> 62f1b6847b3ef46135565986928aa6c44cc2eb65
   response.json(notes)
 })
 
